@@ -434,7 +434,7 @@ The text presents a complex political situation and includes statements from var
 
 ' '
 
-**For each of the techniques and according to its definition, answer with a yes or no if the technique is being used in the following text and with an example from the text if present. This should take the form of: "Propaganda technique - Yes or No - Explanation".**
+**For each of the techniques and according to its definition, answer with either yes or no if the technique is being used in the following text and with an example from the text if present. This should take the form of: "Propaganda technique - Yes or No - Example"**
 
 <**Article 0 from the dataset**>
 
