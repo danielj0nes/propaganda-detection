@@ -5,24 +5,24 @@ This document serves as a formatted record of the test prompts and responses tha
 ## Prompt 1
 **The following are a list of propaganda techniques and their definitions**:
 
-Name calling - Attack an object/subject of the propaganda with an insulting label.
-Repetition - Repeat the same message over and over.
-Slogans - Use a brief and memorable phrase.
-Appeal to fear - Support an idea by instilling fear against other alternatives.
-Doubt - Questioning the credibility of someone/something.
-Exaggeration / minimization - Exaggerate or minimize something.
-Flag-Waving - Appeal to patriotism or identity.
-Loaded Language - Appeal to emotions or stereotypes.
-Reduction ad hitlerum - Disapprove an idea suggesting it is popular with groups hated by the audience.
-Bandwagon - Appeal to the popularity of an idea.
-Casual oversimplification - Assume a simple cause for a complex event.
-Obfuscation, intentional vagueness - Use deliberately unclear and obscure expressions to confuse the audience.
-Appeal to authority - Use authority’s support as evidence.
-Black & white fallacy - Present only two options among many.
-Thought terminating clichés - Phrases that discourage critical thought and meaningful discussions.
-Red herring - Introduce irrelevant material to distract.
-Straw men - Refute argument that was not presented.
-Whataboutism - Charging an opponent with hypocrisy.
+* Name calling - Attack an object/subject of the propaganda with an insulting label.
+* Repetition - Repeat the same message over and over.
+* Slogans - Use a brief and memorable phrase.
+* Appeal to fear - Support an idea by instilling fear against other alternatives.
+* Doubt - Questioning the credibility of someone/something.
+* Exaggeration / minimization - Exaggerate or minimize something.
+* Flag-Waving - Appeal to patriotism or identity.
+* Loaded Language - Appeal to emotions or stereotypes.
+* Reduction ad hitlerum - Disapprove an idea suggesting it is popular with groups hated by the audience.
+* Bandwagon - Appeal to the popularity of an idea.
+* Causal oversimplifcation - Assume a simple cause for a complex event.
+* Obfuscation, intentional vagueness - Use deliberately unclear and obscure expressions to confuse the audience.
+* Appeal to authority - Use authority’s support as evidence.
+* Black & white fallacy - Present only two options among many.
+* Thought terminating clichés - Phrases that discourage critical thought and meaningful discussions.
+* Red herring - Introduce irrelevant material to distract.
+* Straw men - Refute argument that was not presented.
+* Whataboutism - Charging an opponent with hypocrisy.
 
 **Create a prompt based on the techniques and definitions that can be used to detect whether they are present in an article.**
 
@@ -98,7 +98,7 @@ Can you identify whether the following propaganda techniques are present in the 
     - Example: Does the article disapprove an idea suggesting it is popular with groups hated by the audience?
 * Bandwagon
     - Example: Does the article appeal to the popularity of an idea?
-* Casual oversimplification
+* Causal oversimplifcation
     - Example: Does the article assume a simple cause for a complex event?
 * Obfuscation, intentional vagueness
     - Example: Does the article use deliberately unclear and obscure expressions to confuse the audience?
@@ -138,7 +138,7 @@ For each of the propaganda techniques listed below, indicate whether it is prese
 * Loaded language - Has the author used emotionally charged or stereotypical language in the article? (Example: "Those lazy millennials just want everything handed to them!")
 * Reduction ad hitlerum - Has the author disapproved an idea by suggesting it is popular with groups that the audience hates? (Example: "We can't listen to those radical leftists! They're just like the Nazis!")
 * Bandwagon - Has the author appealed to the popularity of an idea in the article? (Example: "Everyone is jumping on board with this new trend, and you should too!")
-* Casual oversimplification - Has the author assumed a simple cause for a complex event? (Example: "The reason for the economic downturn is simply because of too many immigrants.")
+* Causal oversimplifcation - Has the author assumed a simple cause for a complex event? (Example: "The reason for the economic downturn is simply because of too many immigrants.")
 * Obfuscation / Intentional vagueness - Has the author used deliberately unclear or obscure expressions to confuse the audience? (Example: "We need to think outside the box and implement a new strategy for success.")
 * Appeal to authority - Has the author used an authority figure's support as evidence? (Example: "As the leading expert in this field, I can tell you that this is the right course of action.")
 * Black & white fallacy - Has the author presented only two options among many? (Example: "You're either with us, or you're against us.")
@@ -160,7 +160,7 @@ For each of the propaganda techniques listed below, indicate whether it is prese
 
 Sure, here's a prompt:
 
-Please analyze the following article and identify whether the following propaganda techniques are present or not: Name calling, Repetition, Slogans, Appeal to fear, Doubt, Exaggeration/minimization, Flag-Waving, Loaded Language, Reduction ad hitlerum, Bandwagon, Casual oversimplification, Obfuscation/intentional vagueness, Appeal to authority, Black & white fallacy, Thought terminating clichés, Red herring, Straw men, and Whataboutism. For each technique that is present, provide an example of how it was used in the article.
+Please analyze the following article and identify whether the following propaganda techniques are present or not: Name calling, Repetition, Slogans, Appeal to fear, Doubt, Exaggeration/minimization, Flag-Waving, Loaded Language, Reduction ad hitlerum, Bandwagon, Causal oversimplifcation, Obfuscation/intentional vagueness, Appeal to authority, Black & white fallacy, Thought terminating clichés, Red herring, Straw men, and Whataboutism. For each technique that is present, provide an example of how it was used in the article.
 
 
 # Prompt template testing
@@ -178,7 +178,7 @@ As shown in the prompt generation section, it can be quite cumbersome to get Cha
 * Loaded Language - Appeal to emotions or stereotypes
 * Reduction ad hitlerum - Disapprove an idea suggesting it is popular with groups hated by the audience
 * Bandwagon - Appeal to the popularity of an idea
-* Casual oversimplification - Assume a simple cause for a complex event
+* Causal oversimplifcation - Assume a simple cause for a complex event
 * Obfuscation, intentional vagueness - Use deliberately unclear and obscure expressions to confuse the audience
 * Appeal to authority - Use authority’s support as evidence
 * Black&white fallacy - Present only two options among many
@@ -201,7 +201,7 @@ As shown in the prompt generation section, it can be quite cumbersome to get Cha
 * Name-Calling: No, the text does not attack an object/subject with an insulting label.
 * Reduction ad Hitlerum: No, the text does not disapprove of an idea by suggesting it is popular with groups hated by the audience.
 * Bandwagon: No, the text does not appeal to the popularity of an idea.
-* Casual Oversimplification: No, the text does not assume a simple cause for a complex event.
+* Causal oversimplifcation: No, the text does not assume a simple cause for a complex event.
 * Obfuscation, Intentional Vagueness: No, the text does not use deliberately unclear and obscure expressions to confuse the audience.
 * Appeal to Authority: Yes, the text uses the authority of the US ambassador to the UN as evidence.
 * Black & White Fallacy: No, the text does not present only two options among many.
@@ -236,7 +236,7 @@ The text contains elements of propaganda, such as the use of loaded language and
 * Loaded Language - Yes
 * Reduction ad hitlerum - No
 * Bandwagon - No
-* Casual oversimplification - No
+* Causal oversimplifcation - No
 * Obfuscation, intentional vagueness - No
 * Appeal to authority - Yes
 * Black&white fallacy - No
@@ -273,7 +273,7 @@ The text presents a complex political situation and includes statements from var
 * Loaded Language: No. There is no use of language that appeals to emotions or stereotypes in the text.
 * Reduction ad Hitlerum: No. There is no disapproval of an idea by suggesting it is popular with groups hated by the audience in the text.
 * Bandwagon: No. There is no appeal to the popularity of an idea in the text.
-* Casual oversimplification: No. The text does not assume a simple cause for a complex event.
+* Causal oversimplifcation: No. The text does not assume a simple cause for a complex event.
 * Obfuscation, intentional vagueness: No. The text is not deliberately unclear or obscure.
 * Appeal to authority: Yes. The text uses Putin's support as evidence for the breakaway republics' independence. For example, the text states, "The move, he said, was in response to years of fighting in Ukraine’s war-torn east and Kiev’s attempts to “drag foreign states into conflict with our country” with its efforts to join NATO."
 * Black & white fallacy: No. The text presents more than two options.
@@ -297,7 +297,7 @@ The text presents a complex political situation and includes statements from var
 * Loaded Language - Appeal to emotions or stereotypes.
 * Reduction ad hitlerum - Disapprove an idea suggesting it is popular with groups hated by the audience.
 * Bandwagon - Appeal to the popularity of an idea.
-* Casual oversimplification - Assume a simple cause for a complex event.
+* Causal oversimplifcation - Assume a simple cause for a complex event.
 * Obfuscation, intentional vagueness - Use deliberately unclear and obscure expressions to confuse the audience.
 * Appeal to authority - Use authority’s support as evidence.
 * Black & white fallacy - Present only two options among many.
@@ -323,7 +323,7 @@ The text presents a complex political situation and includes statements from var
 * Loaded Language - Yes, the text uses loaded language to describe the situation, using phrases like "human rights catastrophe" and "widespread human suffering."
 * Reduction ad hitlerum - No example of reduction ad hitlerum is present in the text.
 * Bandwagon - No example of bandwagon is present in the text.
-* Casual oversimplification - No example of casual oversimplification is present in the text.
+* Causal oversimplifcation - No example of Causal oversimplifcation is present in the text.
 * Obfuscation, intentional vagueness - No example of obfuscation or intentional vagueness is present in the text.
 * Appeal to authority - No example of appeal to authority is present in the text.
 * Black & white fallacy - No example of black & white fallacy is present in the text.
@@ -357,7 +357,7 @@ The text presents a complex political situation and includes statements from var
 * Loaded Language - Yes. The text uses loaded language by describing the alleged plan by Russia as a "human rights catastrophe," which appeals to the audience's emotions and reinforces the negative view of Russia.
 * Reduction ad hitlerum - No.
 * Bandwagon - No.
-* Casual oversimplification - No.
+* Causal oversimplifcation - No.
 * Obfuscation, intentional vagueness - No.
 * Appeal to authority - Yes. The text uses the authority of the US Ambassador to the UN and the international body to support its claims about Russia's alleged plan.
 * Black & white fallacy - No.
@@ -390,7 +390,7 @@ The text presents a complex political situation and includes statements from var
 * Loaded Language - No
 * Reduction ad hitlerum - No
 * Bandwagon - No
-* Casual oversimplification - No
+* Causal oversimplifcation - No
 * Obfuscation, intentional vagueness - No
 * Appeal to authority - Yes - The text cites the US Ambassador to the UN as the source of the letter to the international body.
 * Black & white fallacy - No
@@ -417,7 +417,7 @@ The text presents a complex political situation and includes statements from var
 * Loaded Language - Yes - The text uses emotionally charged words such as “strategic defeat” and “threats towards our national security” to appeal to the audience's emotions.
 * Reduction ad hitlerum - No
 * Bandwagon - No
-* Casual oversimplification - No
+* Causal oversimplifcation - No
 * Obfuscation, intentional vagueness - Yes - The text uses deliberately unclear expressions to confuse the audience when it claims that the Ukrainian side attacked Moscow's strategic nuclear forces objects with US help, but does not specify which objects were attacked.
 * Appeal to authority - Yes - The text refers to the Russian Foreign Ministry and Defense Ministry to support its claims.
 * Black & white fallacy - No
@@ -452,7 +452,7 @@ The text presents a complex political situation and includes statements from var
 * Loaded Language - Yes - The article uses emotionally charged language such as "human rights catastrophe", "targeted killings", "unjust detentions", and "lethal measures".
 * Reduction ad hitlerum - No
 * Bandwagon - No
-* Casual oversimplification - No
+* Causal oversimplifcation - No
 * Obfuscation, intentional vagueness - No
 * Appeal to authority - Yes - The article cites a senior US diplomat and the US Ambassador to the UN as sources.
 * Black & white fallacy - No

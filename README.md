@@ -1,4 +1,4 @@
-# Detecting Propaganda in News Articles Using ChatGPT
+# # Detecting Propaganda in News Articles Using Large Language Models
 
 In this work, we investigate the feasibility of using Large Language Models (LLMs) to detect propaganda in news articles.
 
