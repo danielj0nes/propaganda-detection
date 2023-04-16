@@ -14,7 +14,7 @@ The `role` and `content` properties of the request are required. There are three
 Currently, a single `user` message containing the final prompt is sent.
 
 ### Temperature
-A higher `temperature` value can be used to "[make the output more random](https://platform.openai.com/docs/guides/chat/instructing-chat-models)" whilst a lower one (e.g., `0`) will cause the model to choose words with the highest probability of occurence. Since our goal is to receive responses that are as objective as possible, `0` is selected.
+A higher `temperature` value can be used to "[make the output more random](https://platform.openai.com/docs/guides/chat/instructing-chat-models)" whilst a lower one (e.g., `0`) will cause the model to choose words with the highest probability of occurrence. Since our goal is to receive responses that are as objective as possible, `0` is selected.
 
 ## Propaganda techniques
 Martino et al. [1] define a list of 18 distinct propaganda techniques, which are as follows:
@@ -30,7 +30,7 @@ Flag-Waving | Appeal to patriotism or identity
 Loaded Language | Appeal to emotions or stereotypes
 Reduction ad hitlerum | Disapprove an idea suggesting it is popular with groups hated by the audience
 Bandwagon | Appeal to the popularity of an idea
-Casual oversimplification | Assume a simple cause for a complex event
+Causal oversimplification | Assume a simple cause for a complex event
 Obfuscation, intentional vagueness | Use deliberately unclear and obscure expressions to confuse the audience
 Appeal to authority | Use authority’s support as evidence
 Black&white fallacy | Present only two options among many
